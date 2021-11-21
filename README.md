@@ -20,3 +20,24 @@
 6. Standardized input features so that they have a mean value of zero and standard deviation of one
 7. Split the dataset into Training/Testing sets (70%  30%)
 
+**MODEL ARCHITECTURE**
+I first compared various Neural Network Architectures:
+1. Convolutional Neural Network:
+Most often applied to visual imagery
+
+2. Deep Recurrent Neural Network
+Have feedback loops to allow information to persist
+
+3. LSTM
+Capable of learning long term dependencies
+
+4. Stacked Autoencoders
+Mainly unsupervised applications
+
+5. Deep Belief Network
+Mainly unsupervised applications
+
+
+I chose to try CNN and LSTM solutions. And attempted to do a DBN for regression problems.
+
+
